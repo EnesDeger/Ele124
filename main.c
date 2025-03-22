@@ -1,0 +1,42 @@
+
+
+
+#include <stdio.h>
+#include<math.h> 
+
+
+
+
+
+int
+main(void) 
+
+
+{ 
+
+int homeValue, popularity, size;
+
+
+
+printf( "Enter the popularity:" ); 
+
+scanf( "%d", &popularity ); 
+
+printf( "Enter the size:" ); 
+
+scanf( "%d", &size ); 
+
+homeValue = (pow(popularity, 3) + pow(size, 2)) * 10000; 
+
+printf( "Sum is %d\n", homeValue ); 
+
+return (0);
+
+
+}
+
+
+
+
+
+
