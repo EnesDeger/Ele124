@@ -1,37 +1,33 @@
-/* Addition program */ 
-
 #include <stdio.h>
 
-
-/* function main begins program execution */ 
 
 int
 main(void) 
 
 { 
 
-int integer1; /* first number to be input by user */
-int integer2; /* second number to be input by user */
-int x;       /* variable in which sum will be stored */
+int integer1; /*there must be a ; */
+int integer2; /*there must be a ; */
+int x;
 
 
-printf( "Enter first integer\n" ); /* prompt */ 
+printf( "Enter first integer\n" ); /* there is no "" here */
 
-scanf( "%d", &integer1 );        /* read an integer */
-
-
-printf( "Enter second integer\n" ); /* prompt */ 
-
-scanf( "%d", &integer2 );           /* read an integer */
+scanf( "%d", &integer1 );
 
 
+printf( "Enter second integer\n" ); 
 
-x = integer1 + integer2; /* assign total to sum */
-
-
-printf( "Sum is %d\n", x ); /* print sum */ 
-
-return (0); /* indicate that program ended successfully */
+scanf( "%d", &integer2 );
 
 
-} /* end function main */
+
+x = integer1 + integer2; /* "sum" is an undefined variable. So it is changed with "x" which is defined before */
+
+
+printf( "Sum is %d\n", x ); /* again about "sum" */
+
+return (0); /* 0 should be in parentheses, but in this situation there is no problem. */
+
+
+}
