@@ -15,7 +15,7 @@ int main (void) {
     homeValue = computeHomeValue(popularity, size);
     printf("Home value is: %d\n", homeValue);
 
-    return 0;
+    return (0);
 }
 
 int computeHomeValue(int popularity, int size) {
