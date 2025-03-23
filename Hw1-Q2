@@ -11,7 +11,7 @@ int integer2; /*there must be a ; */
 int x;
 
 
-printf( "Enter first integer\n" ); /* there is no "" here */
+printf( "Enter first integer\n" ); /* there was no "" here */
 
 scanf( "%d", &integer1 );
 
